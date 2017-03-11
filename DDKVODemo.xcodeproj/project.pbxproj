@@ -13,6 +13,7 @@
 		912DCDFD1E72D53C00568848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912DCDFB1E72D53C00568848 /* Main.storyboard */; };
 		912DCDFF1E72D53C00568848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912DCDFE1E72D53C00568848 /* Assets.xcassets */; };
 		912DCE021E72D53C00568848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912DCE001E72D53C00568848 /* LaunchScreen.storyboard */; };
+		912DCE0B1E72D55A00568848 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 912DCE0A1E72D55A00568848 /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		912DCDFE1E72D53C00568848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912DCE011E72D53C00568848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912DCE031E72D53C00568848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912DCE091E72D55A00568848 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		912DCE0A1E72D55A00568848 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				912DCE001E72D53C00568848 /* LaunchScreen.storyboard */,
 				912DCE031E72D53C00568848 /* Info.plist */,
 				912DCDF21E72D53C00568848 /* Supporting Files */,
+				912DCE091E72D55A00568848 /* NSObject+KVO.h */,
+				912DCE0A1E72D55A00568848 /* NSObject+KVO.m */,
 			);
 			path = DDKVODemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912DCE0B1E72D55A00568848 /* NSObject+KVO.m in Sources */,
 				912DCDFA1E72D53C00568848 /* ViewController.m in Sources */,
 				912DCDF71E72D53C00568848 /* AppDelegate.m in Sources */,
 				912DCDF41E72D53C00568848 /* main.m in Sources */,
